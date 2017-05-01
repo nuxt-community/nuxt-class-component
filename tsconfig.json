@@ -1,0 +1,9 @@
+{
+  "files": [
+    "./lib/index.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true
+  }
+}

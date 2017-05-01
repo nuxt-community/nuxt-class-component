@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-class-component",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/johnlindquist/nuxt-class-component.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "vue": "^2.3.0",
+    "vue-class-component": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
+}
