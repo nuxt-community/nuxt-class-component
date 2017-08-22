@@ -5,10 +5,12 @@ Component.registerHooks([
   'beforeRouteLeave',
   'asyncData',
   'fetch',
+  'head',
   'middleware',
   'layout',
   'transition',
-  'scrollToTop'
+  'scrollToTop',
+  'validate'
 ])
 
 export default Component

@@ -6,9 +6,11 @@ vue_class_component_1["default"].registerHooks([
     'beforeRouteLeave',
     'asyncData',
     'fetch',
+    'head',
     'middleware',
     'layout',
     'transition',
-    'scrollToTop'
+    'scrollToTop',
+    'validate'
 ]);
 exports["default"] = vue_class_component_1["default"];
