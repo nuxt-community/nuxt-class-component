@@ -8,7 +8,7 @@
     "build": "tsc -p ."
   },
   "dependencies": {
-    "vue-class-component": "^5.0.1",
+    "vue-class-component": "^6.1.0",
     "vuex-class": "^0.3.0"
   },
   "devDependencies": {
