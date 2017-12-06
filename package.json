@@ -8,13 +8,14 @@
     "build": "tsc -p ."
   },
   "dependencies": {
-    "vue-class-component": "^6.1.0",
+    "vue-class-component": "^6.1.1",
     "vuex-class": "^0.3.0"
   },
   "devDependencies": {
     "typescript": "^2.3.2"
   },
   "peerDependencies": {
-    "vue": "^2.5.3"
+    "vue": "^2.5.9",
+    "vuex": "^3.0.1"
   }
 }
