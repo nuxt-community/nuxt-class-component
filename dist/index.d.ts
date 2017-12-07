@@ -1,2 +1,3 @@
 import Component from 'vue-class-component';
-export default Component;
+import { State, Getter, Action, Mutation, namespace } from 'vuex-class';
+export { Component as default, State, Getter, Action, Mutation, namespace };
