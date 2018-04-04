@@ -9,11 +9,12 @@
     "build": "tsc -p . -t ES5"
   },
   "dependencies": {
-    "vue-class-component": "^6.1.2",
+    "vue-class-component": "^6.2.0",
     "vuex-class": "^0.3.0"
   },
   "devDependencies": {
-    "typescript": "^2.6.2"
+    "standard-version": "^4.3.0",
+    "typescript": "^2.8.1"
   },
   "peerDependencies": {
     "vue": "^2.5.13",
