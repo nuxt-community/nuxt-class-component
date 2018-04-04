@@ -1040,7 +1040,7 @@ split@^1.0.0:
   dependencies:
     through "2"
 
-standard-version@^4.3.0:
+standard-version@latest:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-4.3.0.tgz#41006cfee4eeab7c0ff3a47eecaa4c7506ed2e3f"
   dependencies:
@@ -1177,9 +1177,17 @@ vue-class-component@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-6.2.0.tgz#7adb1daa9a868c75f30f97f33f4f1b94aee62089"
 
+vue@^2.5.16:
+  version "2.5.16"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
+
 vuex-class@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/vuex-class/-/vuex-class-0.3.0.tgz#25047ab042580fd4ff3e64cc76603ac217c9190d"
+
+vuex@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
 
 which-module@^2.0.0:
   version "2.0.0"
