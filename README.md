@@ -1,9 +1,20 @@
-# Nuxt Class Component
-
-[![npm](https://img.shields.io/npm/v/nuxt-class-component/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-class-component)
-[![Dependencies](https://david-dm.org/nuxt-community/nuxt-class-component/status.svg?style=flat-square)](https://david-dm.org/nuxt-community/nuxt-class-component)
-
-> ES / TypeScript decorator for class-style Nuxt/Vue components, extends [vue-class-component](https://github.com/vuejs/vue-class-component)
+<h1 align="center">Nuxt Class Component</h1>
+<p align="center">ES and Tyepscript Class Components Decorators for Nuxt.js extending <a href="https://github.com/vuejs/vue-class-component">vue-class-component</a></p>
+<p align="center">
+<a href="https://david-dm.org/nuxt-community/nuxt-class-component">
+    <img alt="" src="https://david-dm.org/nuxt-community/nuxt-class-component/status.svg?style=flat-square">
+</a>
+<a href="https://codecov.io/gh/nuxt-community/nuxt-class-component">
+    <img alt="" src="https://img.shields.io/codecov/c/github/nuxt-community/nuxt-class-component.svg?style=flat-square">
+</a>
+<br>
+<a href="https://npmjs.com/package/nuxt-class-component">
+    <img alt="" src="https://img.shields.io/npm/v/nuxt-class-component/latest.svg?style=flat-square">
+</a>
+<a href="https://npmjs.com/package/nuxt-class-component">
+    <img alt="" src="https://img.shields.io/npm/dt/nuxt-class-component.svg?style=flat-square">
+</a>
+</p>
 
 
 ## Installation
@@ -16,17 +27,17 @@ npm install --save nuxt-class-component
 yarn add nuxt-class-component
 ```
 
-If use `babel`, install babel plugin:
+### Babel Instructions
 
 ```bash
-npm install --save-dev babel-plugin-syntax-flow babel-plugin-transform-flow-strip-types
+npm install --save-dev babel-plugin-transform-decorators-legacy babel-plugin-transform-class-properties
 
 # or
 
-yarn add babel-plugin-syntax-flow babel-plugin-transform-flow-strip-types
+yarn add --dev babel-plugin-transform-decorators-legacy babel-plugin-transform-class-properties
 ```
 
-Config babel plugins, `nuxt.config.js`:
+Then you can configure Babel plugins on `nuxt.config.js` - Plugin order is important (see [here](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy#note-order-of-plugins-matters)):
 
 ```js
 module.exports = {
@@ -37,6 +48,25 @@ module.exports = {
   }
 }
 
+```
+
+### Typescript Instructions
+
+You will need to enable [`experimentalDecorators`] on your Typescript compiler.(http://www.typescriptlang.org/docs/handbook/decorators.html).
+
+- Using Typescript Compiler argument `--experimentalDecorators` like this:
+```bash
+tsc --experimentalDecorators
+```
+
+- Using `tsconfig.json`:
+```json
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    ...
+  }
+}
 ```
 
 ## Usage
@@ -120,8 +150,8 @@ export class MyComp extends Vue {
 }
 ```
 
+
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](./LICENSE) - Copyright (c) Nuxt Community
 
-Copyright (c) - John Lindquist / Nuxt Community
