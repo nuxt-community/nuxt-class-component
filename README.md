@@ -4,9 +4,6 @@
 <a href="https://david-dm.org/nuxt-community/nuxt-class-component">
     <img alt="" src="https://david-dm.org/nuxt-community/nuxt-class-component/status.svg?style=flat-square">
 </a>
-<a href="https://codecov.io/gh/nuxt-community/nuxt-class-component">
-    <img alt="" src="https://img.shields.io/codecov/c/github/nuxt-community/nuxt-class-component.svg?style=flat-square">
-</a>
 <br>
 <a href="https://npmjs.com/package/nuxt-class-component">
     <img alt="" src="https://img.shields.io/npm/v/nuxt-class-component/latest.svg?style=flat-square">
