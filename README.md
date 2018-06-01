@@ -85,7 +85,7 @@ import {
   namespace
 } from 'vuex-class'
 
-const ModuleGetter = namespace('path/to/module', Getter)
+const Module = namespace('path/to/module')
 
 @Component({
   props: {
@@ -98,7 +98,8 @@ export class MyComp extends Vue {
   @Getter('foo') getterFoo
   @Action('foo') actionFoo
   @Mutation('foo') mutationFoo
-  @ModuleGetter('foo') moduleGetterFoo
+  @Module.Getter('foo') moduleGetterFoo
+  @Module.Action('foo') moduleActionFoo
 
   // If the argument is omitted, use the property name
   // for each state/getter/action/mutation type
