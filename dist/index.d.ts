@@ -11,7 +11,6 @@ declare module 'vue/types/options' {
     Computed=DefaultComputed,
     PropsDef=PropsDefinition<DefaultProps>,
     Props=DefaultProps> {
-
-    middleware: string;
+    middleware?: string | string[];
   }
 }
