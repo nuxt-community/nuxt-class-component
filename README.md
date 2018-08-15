@@ -1,5 +1,5 @@
 <h1 align="center">Nuxt Class Component</h1>
-<p align="center">ES and Tyepscript Class Components Decorators for Nuxt.js extending <a href="https://github.com/vuejs/vue-class-component">vue-class-component</a></p>
+<p align="center">ES and Typescript Class Components Decorators for Nuxt.js extending <a href="https://github.com/vuejs/vue-class-component">vue-class-component</a></p>
 <p align="center">
 <a href="https://david-dm.org/nuxt-community/nuxt-class-component">
     <img alt="" src="https://david-dm.org/nuxt-community/nuxt-class-component/status.svg?style=flat-square">
