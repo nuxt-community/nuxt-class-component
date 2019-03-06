@@ -24,7 +24,7 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "vue-class-component": "^6.2.0",
+    "vue-class-component": "^7.0.1",
     "vuex-class": "^0.3.0"
   },
   "devDependencies": {
