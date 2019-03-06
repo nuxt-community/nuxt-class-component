@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "standard-version": "latest",
-    "typescript": "^2.8.1",
-    "vue": "^2.5.16",
-    "vuex": "^3.0.1"
+    "typescript": "2.8.1",
+    "vue": "2.5.16",
+    "vuex": "3.0.1"
   }
 }
