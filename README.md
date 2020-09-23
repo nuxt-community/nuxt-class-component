@@ -13,6 +13,7 @@
 </a>
 </p>
 
+:warning: This library is not maintained anymore. You might want to migrate to [Nuxt Property Decorator](https://github.com/nuxt-community/nuxt-property-decorator) which has all of the functionality of Nuxt Class Component.
 
 ## Installation
 
