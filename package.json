@@ -24,13 +24,13 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "vue-class-component": "^7.0.1",
-    "vuex-class": "^0.3.1"
+    "vue-class-component": "^7.2.6",
+    "vuex-class": "^0.3.2"
   },
   "devDependencies": {
     "standard-version": "latest",
-    "typescript": "^2.8.1",
-    "vue": "^2.5.16",
-    "vuex": "^3.0.1"
+    "typescript": "^2.9.2",
+    "vue": "^2.6.12",
+    "vuex": "^3.6.0"
   }
 }
