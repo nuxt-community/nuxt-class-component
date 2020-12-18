@@ -70,7 +70,7 @@ tsc --experimentalDecorators
 
 See [vue-class-component](https://github.com/vuejs/vue-class-component), [vuex-class](https://github.com/vuejs/vuex) documentation.
 
-You can also see the [official TypeScript example of Nuxt.js](https://github.com/nuxt/nuxt.js/tree/dev/examples/typescript).
+You can also see the [official TypeScript examples of Nuxt.js](https://github.com/nuxt/typescript/tree/master/examples).
 
 ### Example
 
