@@ -1,3 +1,9 @@
+## Deprecated Repository
+
+Please consider using [nuxt-property-decorator](https://github.com/nuxt-community/nuxt-property-decorator/) instead.
+
+----
+
 <h1 align="center">Nuxt Class Component</h1>
 <p align="center">ES and Typescript Class Components Decorators for Nuxt.js extending <a href="https://github.com/vuejs/vue-class-component">vue-class-component</a></p>
 <p align="center">
