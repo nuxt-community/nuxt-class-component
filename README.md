@@ -30,7 +30,20 @@ npm install --save nuxt-class-component
 yarn add nuxt-class-component
 ```
 
-### Babel Instructions
+### Babel 7 Instructions
+```js
+module.exports = {
+  build: {
+    babel: {
+      plugins: [
+        ["@babel/plugin-proposal-decorators", { legacy: true }],
+        ["@babel/plugin-proposal-class-properties", { loose: true }]
+      ]
+    },
+  }
+}
+```   
+### Babel 6 Instructions
 
 ```bash
 npm install --save-dev babel-plugin-transform-decorators-legacy babel-plugin-transform-class-properties
